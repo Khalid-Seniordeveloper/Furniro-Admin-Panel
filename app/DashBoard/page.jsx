@@ -161,10 +161,10 @@ const AdminDashboard = () => {
       } else if (user.email === "salesmanager123@gmail.com") {
         setUserRole('salesmanager123');
       } else {
-        router.push('/Login'); // Redirect to login if not recognized
+        router.push('/'); // Redirect to login if not recognized
       }
     } else {
-      router.push('/Login'); // If no user logged in, redirect to login
+      router.push('/'); // If no user logged in, redirect to login
     }
   }, [router]);
 
