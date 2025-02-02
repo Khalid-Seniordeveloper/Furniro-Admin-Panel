@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react';
-import { auth, signInWithEmailAndPassword } from '../Firebas/config.js'; 
+import { auth, signInWithEmailAndPassword } from '../app/Firebas/config.js'; 
 import { useRouter } from 'next/navigation.js';
 
 const Login = () => {
